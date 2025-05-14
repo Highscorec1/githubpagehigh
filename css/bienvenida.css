@@ -1,0 +1,23 @@
+.bienvenida{
+    padding: 60px 0;
+}
+
+.bienvenida__foto{
+
+    box-shadow: 5px 6px 10px 0 rgba(26, 24, 24, 0.3);
+    height: 400px;
+    width: 350px;
+
+}
+
+.contenedor__bienvenida.elementos--gap{
+
+    gap: 3rem;
+
+
+}
+
+.bienvenida__conocenos{
+    width: 600px;
+}
+
