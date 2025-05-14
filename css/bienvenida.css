@@ -1,14 +1,19 @@
-.bienvenida{
-    padding: 60px 0;
+.bienvenida {
+    padding: 80px 0;
+   
 }
+
 
 .bienvenida__foto{
 
     box-shadow: 5px 6px 10px 0 rgba(26, 24, 24, 0.3);
     height: 400px;
     width: 350px;
-
+    border-radius: 1rem;
+    object-fit: cover;
 }
+
+
 
 .contenedor__bienvenida.elementos--gap{
 
@@ -17,7 +22,24 @@
 
 }
 
-.bienvenida__conocenos{
-    width: 600px;
+.elementos_izqder {
+    justify-content: space-between;
 }
 
+
+.bienvenida__conocenos {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    padding: 1rem;
+}
+
+.bienvenida__foto2 {
+
+    box-shadow: 5px 6px 10px 0 rgba(26, 24, 24, 0.3);
+    height: 480px;
+    width: 650px;
+    border-radius: 1rem;
+    object-fit: cover;
+    
+}

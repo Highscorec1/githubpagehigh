@@ -21,7 +21,7 @@ html{
 
 .header{
     background-color: rgba(255, 255, 255, 0.9);
-    border-bottom: 0.2rem soild rgb(0, 142, 225);
+    border-bottom: 0.2rem solid rgb(0, 142, 225);
     border-block-end: 00.2rem solid red;
     height: 80px;
     position: fixed;
@@ -83,7 +83,7 @@ html{
 }
 
 .texto--azul{
-    color: #0095e5;
+    color: #0a325f;
 
 }
 
@@ -97,7 +97,7 @@ html{
 }
 
 .fondo--azul{
-    background-color: #0095e5;
+    background-color: #0a325f;
 }
 
 .elementos--wrap{
@@ -136,11 +136,9 @@ html{
     
     float: left;
     display: block;
-
-
     font-size: 1.5rem;
     width: 45px;
-    border: 0rem solid #0095e5;
+    border: 0rem solid #0a325f;
     border-radius: 30%;
     padding: 0.5rem;
 }
@@ -154,6 +152,55 @@ html{
 
 }
 
+@media screen and (max-width: 768px) {
+
+    .contenedor__flex,
+    .contenedor__bienvenida {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner__dog {
+        position: static;
+        width: 100px;
+        margin-top: 1rem;
+    }
+
+    .bienvenida__conocenos {
+        width: 90%;
+        text-align: center;
+    }
+
+    .nav__lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__logo {
+        width: 100px;
+    }
+
+    .logos__redes {
+        width: 35px;
+        padding: 0.3rem;
+    }
+
+    .eliminar--espacio2 {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .nav {
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .btn__contactanos {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
 
 
 

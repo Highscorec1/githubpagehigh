@@ -9,7 +9,8 @@
 
 .banner__publicidad{
     color: white;
-    text-align: center;
+    text-align: left;
+    position: absolute;
     width: 95%;
     z-index: 1;
 }
