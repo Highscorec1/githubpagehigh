@@ -1,236 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
 
-<!DOCTYPE html> <!--que htlm usamos en este caso el html5-->
- 
-<html lang="es"> <!--lenguaje español-->
-    <head>
+<head>
+  <meta charset="utf-8" />
+  <title>HighscoreC - Perfil Profesional</title>
+  <meta name="descripcion" content="Desarrollador Android y Especialista en Ciberseguridad" />
+  <meta name="author" content="Geovanny Ortega" />
+  <meta name="Keywords" content="Android, Kotlin, Cybersecurity, Google Certificate, Desarrollo movil">
 
-        <meta charset="utf-8"/> <!--Permite usar emoticones y mas caracteres-->
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/bienvenida.css">
+</head>
 
-        <title> Titulo de la Pagina    </title>
+<body>
+  <header class="header">
+    <div class="contenedor verticalt--100 contenedor__flex elementos_izqder elementos__centrarv elementos--wrap">
+      <a href="#">
+        <img class="header__logo" src="Imagenes/HighscoreGmaes.png" alt="Logo de Highscore Games">
+      </a>
 
-        <meta name="descripcion" content="Guia para entrar a Raia lucaria" />
-        <meta name="author" content="High" />
-        <meta name="Keywords" content="Elden Ring, Raia Lucaria, como entrar, games, stream">
+      <ul class="contenedor__flex verticalt--100 elementos--gap elementos__statrv ">
+        <li class="contenedor_flex  elementos--gap elementos--wrap ">
+          <img class="logos__redes elementos--gap alinear__imagen " src="Imagenes/Redes/icotwt.jpg" alt="">
+        </li>
+        <li class="eliminar--espacio2">
+          <p><b> Twitch</b><br> highscorec</p>
+        </li>
+        <li class="contenedor_flex elementos--gap elementos--wrap  ">
+          <img class="logos__redes" src="Imagenes/Redes/icoins.jpg" alt="">
+        </li>
+        <li class="eliminar--espacio2">
+          <p><b>Instagram</b><br> @highscore</p>
+        </li>
+        <li class="contenedor_flex elementos--gap elementos--wrap ">
+          <img class="logos__redes" src="Imagenes/Redes/icoyt.jpg" alt="" width="40">
+        </li>
+        <li class="eliminar--espacio2 ">
+          <p><b>Youtube</b><br> High Score</p>
+        </li>
+      </ul>
+    </div>
+  </header>
 
-        <link rel="stylesheet" href="css/estilos.css">
-        <link rel="stylesheet" href="css/banner.css">
-        <link rel="stylesheet" href="css/bienvenida.css">
-    </head>
-    <body>
-        <!--header de la pagina -->
-        <header class="header">
-            <div class="contenedor verticalt--100 contenedor__flex elementos_izqder elementos__centrarv elementos--wrap">
-                <a href="#"> <!--Logotipo convertido a un enlace por medio de la etiqueta -->  
-                    <img class="header__logo" src="Imagenes/HighscoreGmaes.png" alt="Logo de Highscore Games">
-                </a>
-                <!--Ocultar y mostrar menu-->
-                <!--*************************************************************************-->
-                <ul class="contenedor__flex verticalt--100 elementos--gap elementos__statrv ">
+  <div class="separador"></div>
 
-                    <li class="contenedor_flex  elementos--gap elementos--wrap ">
+  <nav class="nav fondo--azul">
+    <div class="contenedor contenedor__flex verticalt--100 elementos--der elementos__centrarv">
+      <ul class="nav__lista contenedor__flex elementos--gap2">
+        <li><a href="" class="nav__enlace texto--blanco">Inicio</a></li>
+        <li><a href="juegos.html" class="nav__enlace texto--blanco">Juegos</a></li>
+        <li><a href="" class="nav__enlace texto--blanco">Comunidad</a></li>
+        <li><a href="" class="nav__enlace texto--blanco">Galeria</a></li>
+        <li><a href="aplicaciones.html" class="nav__enlace texto--blanco">Aplicaciones</a></li>
+      </ul>
+    </div>
+  </nav>
 
-                        <img class="logos__redes elementos--gap alinear__imagen "  src="Imagenes/Redes/icotwt.jpg" alt=""  >
+  <section class="banner contenedor__flex elementos__centrarv elementos__centrarh">
+    <div class="banner__publicidad">
+      <hgroup>
+        <h3 class="banner--subtitulo3">Bienvenidos a HighEscoreC</h3>
+        <h1 class="banner--titulo">Aquí amamos la tecnología</h1>
+        <h3 class="banner--subtitulo3">Desarrollo web y móvil.</h3>
+      </hgroup>
+      <a class="btn__contactanos fondo--azul btn--margin-top" href="">CONTÁCTANOS</a>
+    </div>
+  </section>
 
-                    </li>
+  <main>
 
+    <!-- DESARROLLO ANDROID -->
+    <section class="bienvenida contenedor">
+      <div class="contenedor__bienvenida contenedor__flex elementos_izqder elementos--gap">
+        <img class="bienvenida__foto" src="Imagenes/banner1.png" alt="Desarrollador Android" width="350" height="400">
 
-                    <li class="eliminar--espacio2">
-                    
-                        <p>
-                            <b> Twitch</b><br>
-                            highscorec
-                        </p> 
-                     </li>
+        <article class="bienvenida__conocenos">
+          <hgroup>
+            <h2 class="subtitulo--2 texto--azul">DESARROLLO ANDROID</h2>
+            <h3>Especialista en aplicaciones móviles con Kotlin</h3>
+          </hgroup>
 
-        
-                     <li class="contenedor_flex elementos--gap elementos--wrap  ">
+          <div>
+            <p>
+              Me especializo en el desarrollo de aplicaciones nativas para Android utilizando <strong style="color:red;">Kotlin</strong>, con experiencia en <strong style="color:red;">MVVM</strong>, <strong style="color:red;">Jetpack</strong>, <strong style="color:red;">Room</strong>, <strong style="color:red;">Firebase</strong> y <strong style="color:red;">Retrofit</strong>.
+            </p>
 
-                        <img class="logos__redes" src="Imagenes/Redes/icoins.jpg" alt="" >
+            <p style="margin-top: 1em;">
+              Mis aplicaciones están orientadas a ofrecer una <strong style="color:red;">experiencia de usuario fluida</strong>, bien estructurada y segura, aplicando principios de UX/UI desde el diseño hasta la publicación.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-                    </li>
+    <!-- CERTIFICADO CYBERSEGURIDAD -->
+    <section class="bienvenida contenedor">
+      <div class="contenedor__bienvenida contenedor__flex elementos_izqder elementos--gap">
+        <article class="bienvenida__conocenos">
+          <hgroup>
+            <h2 class="subtitulo--2 texto--azul">CYBER SEGURIDAD</h2>
+            <h3>Certificación profesional Google</h3>
+          </hgroup>
 
-                         <li class="eliminar--espacio2">
-                        
-                         
-                        <p>
-                            <b>Instagram</b><br>
-                            @highscore
-                        </p> 
-                    
-                     </li>
-                     
-                     <li class="contenedor_flex elementos--gap elementos--wrap ">
+          <div>
+            <p>
+              Este certificado, desarrollado por expertos de Google, me ha brindado una formación integral en <strong style="color:red;">ciberseguridad</strong>, abarcando desde la <strong style="color:red;">gestión de riesgos</strong> hasta la <strong style="color:red;">respuesta ante incidentes</strong>.
+            </p>
 
-                        <img class="logos__redes" src="Imagenes/Redes/icoyt.jpg" alt="" width="40">
+            <p style="margin-top: 1em;">
+              A lo largo de 8 cursos, adquirí habilidades prácticas en herramientas como <strong style="color:red;">Python</strong>, <strong style="color:red;">Linux</strong>, <strong style="color:red;">SQL</strong> y sistemas SIEM como <strong style="color:red;">Chronicle</strong> y <strong style="color:red;">Splunk</strong>, preparándome para roles como <strong style="color:red;">analista de ciberseguridad</strong> y <strong style="color:red;">analista SOC</strong>.
+            </p>
 
-                    </li>
-                     <li class="eliminar--espacio2 ">
-                        
-                        <p>
-                            <b>Youtube</b><br>
-                            High Score
-                        </p> 
-                     </li>
+            <p style="margin-top: 1em;">
+              Este logro no solo valida mis <strong style="color:red;">competencias técnicas</strong>, sino que también refleja mi compromiso con la <strong style="color:red;">seguridad digital</strong> y la <strong style="color:red;">protección de sistemas</strong> frente a amenazas cibernéticas.
+            </p>
+          </div>
+        </article>
 
-                </ul>
+        <img class="bienvenida__foto2" src="Imagenes/googlePCS.png" alt="CertificadoGoogle" width="350" height="400">
+      </div>
+    </section>
 
+    <!-- EXPERIENCIA GAMER -->
+    <section class="bienvenida contenedor">
+  <div class="contenedor__bienvenida contenedor__flex elementos_izqder elementos--gap">
+    <img class="bienvenida__foto" src="Imagenes/network-security-app.png" alt="App de Seguridad de Red" width="350" height="400">
 
-            </div>
-            
-        </header>
+    <article class="bienvenida__conocenos">
+      <hgroup>
+        <h2 class="subtitulo--2 texto--azul">APLICACIÓN PREMIUM DE SEGURIDAD</h2>
+        <h3>Detecta y expulsa intrusos de tu red WiFi desde tu Android</h3>
+      </hgroup>
 
-        <div class="separador"></div>
-        <!--Navegación-->
-        <nav class="nav fondo--azul">
-            <div class="contenedor contenedor__flex verticalt--100 elementos--der elementos__centrarv">
+      <div>
+        <p>
+          Hemos desarrollado una <strong style="color:red;">aplicación premium</strong> para Android diseñada específicamente para monitorear y proteger redes WiFi domésticas. Detecta automáticamente cualquier <strong style="color:red;">dispositivo no autorizado</strong> conectado a tu red.
+        </p>
 
-                <ul class="nav__lista contenedor__flex elementos--gap2"> <!--Lista de elementos desordenadas-->   
-                    <li><a href="" class="nav__enlace texto--blanco">Inicio</a></li>
-                    <li><a href="" class="nav__enlace texto--blanco">Juegos</a></li>
-                    <li><a href="" class="nav__enlace texto--blanco">Comunidad</a></li>
-                    <li><a href="" class="nav__enlace texto--blanco">Galeria</a></li>
-                    <li><a href="" class="nav__enlace texto--blanco">Aplicaciones</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!--Banner de publicidad-->
-        <section class="banner contenedor__flex elementos__centrarv elementos__centrarh">
-            <div class="banner__publicidad">
-                <hgroup>
-                    <h3 class="banner--subtitulo3">Bienvenidos a HighEscoreC</h3>
-                    <h1 class="banner--titulo">Aquí amamos la tecnologia</h1>
-                    <h3 class="banner--subtitulo3">Desarrollo web y móvil.</h3>
-                </hgroup>
-                <a class="btn__contactanos fondo--azul btn--margin-top" href="">CONTÁCTANOS</a>
-            </div>
+        <p style="margin-top: 1em;">
+          Con solo unos toques, puedes <strong style="color:red;">bloquear el acceso</strong> de intrusos, recibir notificaciones en tiempo real y consultar un historial de accesos sospechosos. Todo desde una interfaz amigable, diseñada bajo principios de <strong style="color:red;">UX/UI</strong> modernos.
+        </p>
 
-
-        </section>
-        <!--Contenido principal-->
-        <main>
-            <!--Contenido bienvenida-->
-             <section id="info-bienvenida" class="bienvenida contenedor">
-              <div class="contenedor__bienvenida contenedor__flex elementos_izqder elementos--gap">
-
-
-                <img class="bienvenida__foto" src="Imagenes/banner1.png" alt="" width="350" height="400"  >
-
-                <article class="bienvenida__conocenos">
-                     <hgroup>
-                             <h2 class="subtitulo--2 texto--azul">DESARROLLADOR</h2>
-                             <h3>Desarrollo movil y multiplataforma, equipo de desarrollo completo para la mejor experiencia</h3>
-                    </hgroup>
-                
-                    <div>
-                        <p>
-                        En HighscoreCGames, amamos los videojuegos y entendemos lo que los gamers piden, es por ello que brindamos
-                        un servicio de calidad, las 24 horas del día los 7 días de la semana.
-                        </p>
-
-                        <p>
-                        Mucho más que un desarrollador este es tu espacio para diseñar con nosotros todas tus redes  y aplicaciones asi como 
-                        llevar a la realidad tu juego.
-                        </p>
-
-                        <p>
-                        No olvides informarte de todas nuestras ofertas y promociones a tráves de nuestras Pagina en Facebool y nuestra cuenta de
-                        Twitter. Y por supuesto, si desea saber más sobre HighscoreCGames no dude en consultar nuestro blog.
-                        </p>
-
-                    </div>
-                 </article>
-                </div>
-            </section>
-
-            <section class="bienvenida contenedor">
-                <div class="contenedor__bienvenida contenedor__flex elementos_izqder elementos--gap">
-
-                     <article class="bienvenida__conocenos">
-                       <hgroup>
-                         <h2 class="subtitulo--2 texto--azul">APLICACIONES INTELIGENTES</h2>
-                         <h3>Soluciones personalizadas para el mundo moderno</h3>
-                       </hgroup>
-                   
-                       <div>
-                         <p>
-                           Creamos aplicaciones web y móviles usando tecnologías modernas como React, Flutter y Node.js, optimizadas para rendimiento y escalabilidad.
-                         </p>
-                     
-                         <p>
-                           Nuestro equipo puede ayudarte a lanzar tu idea desde cero o mejorar un proyecto existente con nuevas funcionalidades inteligentes.
-                         </p>
-                     
-                         <p>
-                           Ya sea un panel administrativo, una tienda digital o una red social, tenemos la experiencia para hacerlo realidad.
-                         </p>
-                       </div>
-                     </article>
-
-                     <img class="bienvenida__foto2" src="Imagenes/aplicaciones.png" alt="Aplicación móvil ilustrativa" width="850" height="600">
-                </div>
-            </section>
-
-            <section class="bienvenida contenedor">
-                <div class="contenedor__bienvenida contenedor__flex elementos_izqder elementos--gap">
-
-                    <img class="bienvenida__foto" src="Imagenes/gamer-experience.jpg" alt="Jugador en computadora" width="350" height="400">
-
-                    <article class="bienvenida__conocenos">
-                      <hgroup>
-                        <h2 class="subtitulo--2 texto--azul">EXPERIENCIA GAMER</h2>
-                        <h3>Diseñamos experiencias inmersivas para todo tipo de jugadores</h3>
-                      </hgroup>
-
-                      <div>
-                        <p>
-                          Nos enfocamos en crear entornos visuales atractivos, mecánicas sólidas y una jugabilidad fluida que cautive desde el primer momento.
-                        </p>
-
-                        <p>
-                          Implementamos técnicas de diseño UX/UI para asegurar que cada detalle esté optimizado para una experiencia gamer inolvidable.
-                        </p>
-
-                        <p>
-                          Ya sea un juego indie o una producción más grande, trabajamos contigo para elevar tu visión a nivel profesional.
-                        </p>
-                      </div>
-                    </article>
-
+        <p style="margin-top: 1em;">
+          Esta herramienta es ideal para proteger tu privacidad y mejorar el rendimiento de tu red. Compatible con la mayoría de routers y dispositivos Android modernos.
+        </p>
+      </div>
+    </article>
   </div>
 </section>
 
 
-</main>
+  </main>
 
-        
-
-        <!--Pie de pagina-->
-        
-
-        <!--<img src="" alt=""> para agregar imagen ya sea en carpeta o en internet-->
-
-        <footer class="footer fondo--azul texto--blanco">
+  <footer class="footer fondo--azul texto--blanco">
     <div class="contenedor contenedor__flex elementos_izqder elementos--wrap">
-        <p>&copy; 2020–2025 HighscoreCGames. Todos los derechos reservados.</p>
-        <ul class="contenedor__flex elementos--gap" style="list-style: none; margin: 0;">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
+      <p>&copy; 2020–2025 HighscoreCGames. Todos los derechos reservados.</p>
+      <ul class="contenedor__flex elementos--gap" style="list-style: none; margin: 0;">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
     </div>
-</footer>
-
-
-
-
-
-
-    </body>
-
+  </footer>
+</body>
 
 </html>
-
-
-
-
-
