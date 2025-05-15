@@ -152,6 +152,25 @@ html{
 
 }
 
+
+.footer {
+    font-size: 0.9rem;
+    border-top: 2px solid white;
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+}
+
+    .footer a {
+    color: white;
+    margin-left: 1rem;
+    transition: 0.3s;
+    }
+
+    .footer a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* tono  claro como efecto visual */
+    }
+
 @media screen and (max-width: 768px) {
 
     .contenedor__flex,
@@ -200,6 +219,24 @@ html{
         width: 100%;
         box-sizing: border-box;
     }
+    .footer {
+    font-size: 0.9rem;
+    border-top: 2px solid white;
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+}
+
+    .footer a {
+    color: white;
+    margin-left: 1rem;
+    transition: 0.3s;
+    }
+
+    .footer a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* tono  claro como efecto visual */
+    }
+
 }
 
 
