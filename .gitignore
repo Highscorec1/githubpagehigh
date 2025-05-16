@@ -1,0 +1,31 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor/IDE
+.vscode/
+.idea/
+*.log
+
+# Node (solo si usás herramientas JS como npm en el futuro)
+node_modules/
+dist/
+build/
+
+# Archivos temporales o de pruebas
+*.zip
+*.bak
+*.tmp
+
+# Imágenes de respaldo
+Imagenes/*-copia.*
+Imagenes/*.psd
+Imagenes/*.xcf
+
+# Archivos de sistema ocultos
+ehthumbs.db
+desktop.ini
+
+# Archivos de despliegue (si generás algún día)
+*.tar.gz
+.env
