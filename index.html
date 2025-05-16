@@ -31,13 +31,13 @@
           <img class="logos__redes" src="Imagenes/Redes/icoins.jpg" alt="">
         </li>
         <li class="eliminar--espacio2">
-          <p><b>Instagram</b><br> @highscore</p>
+          <p><b>Instagram</b><br> @highscorec</p>
         </li>
         <li class="contenedor_flex elementos--gap elementos--wrap ">
           <img class="logos__redes" src="Imagenes/Redes/icoyt.jpg" alt="" width="40">
         </li>
         <li class="eliminar--espacio2 ">
-          <p><b>Youtube</b><br> High Score</p>
+          <p><b>Youtube</b><br> HighscoreDev</p>
         </li>
       </ul>
     </div>
@@ -48,10 +48,8 @@
   <nav class="nav fondo--azul">
     <div class="contenedor contenedor__flex verticalt--100 elementos--der elementos__centrarv">
       <ul class="nav__lista contenedor__flex elementos--gap2">
-        <li><a href="" class="nav__enlace texto--blanco">Inicio</a></li>
         <li><a href="juegos.html" class="nav__enlace texto--blanco">Juegos</a></li>
-        <li><a href="" class="nav__enlace texto--blanco">Comunidad</a></li>
-        <li><a href="" class="nav__enlace texto--blanco">Galeria</a></li>
+        <li><a href="comunidad.html" class="nav__enlace texto--blanco">Comunidad</a></li>
         <li><a href="aplicaciones.html" class="nav__enlace texto--blanco">Aplicaciones</a></li>
       </ul>
     </div>
@@ -62,11 +60,28 @@
       <hgroup>
         <h3 class="banner--subtitulo3">Bienvenidos a HighEscoreC</h3>
         <h1 class="banner--titulo">Aquí amamos la tecnología</h1>
-        <h3 class="banner--subtitulo3">Desarrollo web y móvil.</h3>
+        <h3 class="banner--subtitulo3">Desarrollo web, móvil y analista de Cybersecurity.</h3>
       </hgroup>
-      <a class="btn__contactanos fondo--azul btn--margin-top" href="">CONTÁCTANOS</a>
+      <a class="btn__contactanos fondo--azul btn--margin-top" href="javascript:void(0);"
+        onclick="abrirModal()">CONTÁCTANOS</a>
     </div>
   </section>
+
+  <button class="btn-contacto" onclick="abrirModal()">✉️ Contáctanos</button>
+
+  <!-- Ventana modal de contacto -->
+  <div id="modalContacto" class="modal oculto">
+    <div class="modal-contenido">
+      <span class="modal-cerrar" onclick="cerrarModal()">&times;</span>
+      <h2>Contáctame</h2>
+      <form onsubmit="return enviarCorreo()">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="email" id="email" placeholder="Tu correo" required>
+        <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+        <button type="submit" class="btn-unirse">Enviar</button>
+      </form>
+    </div>
+  </div>
 
   <main>
 
@@ -83,11 +98,16 @@
 
           <div>
             <p>
-              Me especializo en el desarrollo de aplicaciones nativas para Android utilizando <strong style="color:red;">Kotlin</strong>, con experiencia en <strong style="color:red;">MVVM</strong>, <strong style="color:red;">Jetpack</strong>, <strong style="color:red;">Room</strong>, <strong style="color:red;">Firebase</strong> y <strong style="color:red;">Retrofit</strong>.
+              Me especializo en el desarrollo de aplicaciones nativas para Android utilizando <strong
+                style="color:red;">Kotlin</strong>, con experiencia en <strong style="color:red;">MVVM</strong>, <strong
+                style="color:red;">Jetpack</strong>, <strong style="color:red;">Room</strong>, <strong
+                style="color:red;">Firebase</strong> y <strong style="color:red;">Retrofit</strong>.
             </p>
 
             <p style="margin-top: 1em;">
-              Mis aplicaciones están orientadas a ofrecer una <strong style="color:red;">experiencia de usuario fluida</strong>, bien estructurada y segura, aplicando principios de UX/UI desde el diseño hasta la publicación.
+              Mis aplicaciones están orientadas a ofrecer una <strong style="color:red;">experiencia de usuario
+                fluida</strong>, bien estructurada y segura, aplicando principios de UX/UI desde el diseño hasta la
+              publicación.
             </p>
           </div>
         </article>
@@ -105,15 +125,24 @@
 
           <div>
             <p>
-              Este certificado, desarrollado por expertos de Google, me ha brindado una formación integral en <strong style="color:red;">ciberseguridad</strong>, abarcando desde la <strong style="color:red;">gestión de riesgos</strong> hasta la <strong style="color:red;">respuesta ante incidentes</strong>.
+              Este certificado, desarrollado por expertos de Google, me ha brindado una formación integral en <strong
+                style="color:red;">ciberseguridad</strong>, abarcando desde la <strong style="color:red;">gestión de
+                riesgos</strong> hasta la <strong style="color:red;">respuesta ante incidentes</strong>.
             </p>
 
             <p style="margin-top: 1em;">
-              A lo largo de 8 cursos, adquirí habilidades prácticas en herramientas como <strong style="color:red;">Python</strong>, <strong style="color:red;">Linux</strong>, <strong style="color:red;">SQL</strong> y sistemas SIEM como <strong style="color:red;">Chronicle</strong> y <strong style="color:red;">Splunk</strong>, preparándome para roles como <strong style="color:red;">analista de ciberseguridad</strong> y <strong style="color:red;">analista SOC</strong>.
+              A lo largo de 8 cursos, adquirí habilidades prácticas en herramientas como <strong
+                style="color:red;">Python</strong>, <strong style="color:red;">Linux</strong>, <strong
+                style="color:red;">SQL</strong> y sistemas SIEM como <strong style="color:red;">Chronicle</strong> y
+              <strong style="color:red;">Splunk</strong>, preparándome para roles como <strong
+                style="color:red;">analista de ciberseguridad</strong> y <strong style="color:red;">analista
+                SOC</strong>.
             </p>
 
             <p style="margin-top: 1em;">
-              Este logro no solo valida mis <strong style="color:red;">competencias técnicas</strong>, sino que también refleja mi compromiso con la <strong style="color:red;">seguridad digital</strong> y la <strong style="color:red;">protección de sistemas</strong> frente a amenazas cibernéticas.
+              Este logro no solo valida mis <strong style="color:red;">competencias técnicas</strong>, sino que también
+              refleja mi compromiso con la <strong style="color:red;">seguridad digital</strong> y la <strong
+                style="color:red;">protección de sistemas</strong> frente a amenazas cibernéticas.
             </p>
           </div>
         </article>
@@ -124,31 +153,37 @@
 
     <!-- EXPERIENCIA GAMER -->
     <section class="bienvenida contenedor">
-  <div class="contenedor__bienvenida contenedor__flex elementos_izqder elementos--gap">
-    <img class="bienvenida__foto" src="Imagenes/network-security-app.png" alt="App de Seguridad de Red" width="350" height="400">
+      <div class="contenedor__bienvenida contenedor__flex elementos_izqder elementos--gap">
+        <img class="bienvenida__foto" src="Imagenes/network-security-app.png" alt="App de Seguridad de Red" width="350"
+          height="400">
 
-    <article class="bienvenida__conocenos">
-      <hgroup>
-        <h2 class="subtitulo--2 texto--azul">APLICACIÓN PREMIUM DE SEGURIDAD</h2>
-        <h3>Detecta y expulsa intrusos de tu red WiFi desde tu Android</h3>
-      </hgroup>
+        <article class="bienvenida__conocenos">
+          <hgroup>
+            <h2 class="subtitulo--2 texto--azul">APLICACIÓN PREMIUM DE SEGURIDAD</h2>
+            <h3>Detecta y expulsa intrusos de tu red WiFi desde tu Android</h3>
+          </hgroup>
 
-      <div>
-        <p>
-          Hemos desarrollado una <strong style="color:red;">aplicación premium</strong> para Android diseñada específicamente para monitorear y proteger redes WiFi domésticas. Detecta automáticamente cualquier <strong style="color:red;">dispositivo no autorizado</strong> conectado a tu red.
-        </p>
+          <div>
+            <p>
+              Hemos desarrollado una <strong style="color:red;">aplicación premium</strong> para Android diseñada
+              específicamente para monitorear y proteger redes WiFi domésticas. Detecta automáticamente cualquier
+              <strong style="color:red;">dispositivo no autorizado</strong> conectado a tu red.
+            </p>
 
-        <p style="margin-top: 1em;">
-          Con solo unos toques, puedes <strong style="color:red;">bloquear el acceso</strong> de intrusos, recibir notificaciones en tiempo real y consultar un historial de accesos sospechosos. Todo desde una interfaz amigable, diseñada bajo principios de <strong style="color:red;">UX/UI</strong> modernos.
-        </p>
+            <p style="margin-top: 1em;">
+              Con solo unos toques, puedes <strong style="color:red;">bloquear el acceso</strong> de intrusos, recibir
+              notificaciones en tiempo real y consultar un historial de accesos sospechosos. Todo desde una interfaz
+              amigable, diseñada bajo principios de <strong style="color:red;">UX/UI</strong> modernos.
+            </p>
 
-        <p style="margin-top: 1em;">
-          Esta herramienta es ideal para proteger tu privacidad y mejorar el rendimiento de tu red. Compatible con la mayoría de routers y dispositivos Android modernos.
-        </p>
+            <p style="margin-top: 1em;">
+              Esta herramienta es ideal para proteger tu privacidad y mejorar el rendimiento de tu red. Compatible con
+              la mayoría de routers y dispositivos Android modernos.
+            </p>
+          </div>
+        </article>
       </div>
-    </article>
-  </div>
-</section>
+    </section>
 
 
   </main>
@@ -159,10 +194,32 @@
       <ul class="contenedor__flex elementos--gap" style="list-style: none; margin: 0;">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Contacto</a></li>
       </ul>
     </div>
   </footer>
 </body>
+
+<!-- Script del modal -->
+<script>
+  function abrirModal() {
+    document.getElementById("modalContacto").classList.remove("oculto");
+  }
+
+  function cerrarModal() {
+    document.getElementById("modalContacto").classList.add("oculto");
+  }
+
+  function enviarCorreo() {
+    const nombre = document.getElementById("nombre").value;
+    const email = document.getElementById("email").value;
+    const mensaje = document.getElementById("mensaje").value;
+
+    const asunto = encodeURIComponent("Contacto desde HighscoreC");
+    const cuerpo = encodeURIComponent(`Nombre: ${nombre}\nCorreo: ${email}\n\nMensaje:\n${mensaje}`);
+
+    window.location.href = `mailto:highscorecompany20@gmail.com?subject=${asunto}&body=${cuerpo}`;
+    return false;
+  }
+</script>
 
 </html>
