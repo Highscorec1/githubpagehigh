@@ -18,23 +18,17 @@
         <li class="contenedor_flex elementos--gap elementos--wrap">
           <img class="logos__redes" src="Imagenes/Redes/icotwt.jpg" alt="Twitch">
         </li>
-        <li class="eliminar--espacio2">
-          <p><b>Twitch</b><br>highscorec</p>
-        </li>
+        <li class="eliminar--espacio2"><p><b>Twitch</b><br>highscorec</p></li>
 
         <li class="contenedor_flex elementos--gap elementos--wrap">
           <img class="logos__redes" src="Imagenes/Redes/icoins.jpg" alt="Instagram">
         </li>
-        <li class="eliminar--espacio2">
-          <p><b>Instagram</b><br>@highscore</p>
-        </li>
+        <li class="eliminar--espacio2"><p><b>Instagram</b><br>@highscore</p></li>
 
         <li class="contenedor_flex elementos--gap elementos--wrap">
           <img class="logos__redes" src="Imagenes/Redes/icoyt.jpg" alt="YouTube" width="40">
         </li>
-        <li class="eliminar--espacio2">
-          <p><b>YouTube</b><br>High Score</p>
-        </li>
+        <li class="eliminar--espacio2"><p><b>YouTube</b><br>High Score</p></li>
       </ul>
     </div>
   </header>
@@ -46,35 +40,29 @@
     <div class="contenedor contenedor__flex elementos__centrarh elementos--gap2">
       <a href="https://www.youtube.com/@highscoredev3850" target="_blank" class="btn-acceso">Ver en YouTube</a>
       <a href="https://play.kotlinlang.org/" target="_blank" class="btn-acceso">💻 IDE en Línea</a>
-      <a href="https://tu-enlace.com/descargar-archivos" target="_blank" class="btn-acceso">📁 Archivos del Reto</a>
+      <a href="https://github.com/Highscorec1/Retos-de-Programacion-KOTLIN-Roadmap-/tree/main" target="_blank" class="btn-acceso">📁 Archivos del Reto</a>
     </div>
   </nav>
 
   <!-- Contenido principal -->
   <main class="contenedor">
-    <h1 class="texto--centrar texto--blanco">Retos de Programación en Kotlin</h1>
+   <h1 class="texto--centrar texto--blanco">Retos de Programación en Kotlin</h1>
 
-    <section class="reto">
-      <h2>Reto 1: Calculadora CLI</h2>
-      <p>Crea una calculadora de consola que acepte operaciones básicas (+, -, *, /) entre dos números.</p>
-      <a href="#" class="btn-unirse">Ver más</a>
-    </section>
+   <!-- Contenedor dinámico -->
+   <div id="contenedor-retos"></div>
 
-    <section class="reto">
-      <h2>Reto 2: App de Tareas</h2>
-      <p>Desarrolla una app simple de lista de tareas en Android con Kotlin usando RecyclerView.</p>
-      <a href="#" class="btn-unirse">Ver más</a>
-    </section>
+   <!-- Paginación -->
+    <div class="texto--centrar" style="margin-top: 2rem;">
+    <button class="btn-unirse" onclick="paginaAnterior()">« Anterior</button>
+    <span id="indicador-pagina" class="texto--blanco" style="margin: 0 1rem;"></span>
+    <button class="btn-unirse" onclick="paginaSiguiente()">Siguiente »</button>
+    </div>
 
-    <section class="reto">
-      <h2>Reto 3: API REST con Ktor</h2>
-      <p>Implementa un servicio web básico en Kotlin usando Ktor que devuelva datos de usuarios.</p>
-      <a href="#" class="btn-unirse">Ver más</a>
-    </section>
-
-    <div style="height: 120px;"></div>
+   <div style="height: 120px;"></div>
   </main>
 
+
+  <!-- Footer -->
   <footer class="footer fondo--azul texto--blanco">
     <div class="contenedor contenedor__flex elementos_izqder elementos--wrap">
       <p>&copy; 2020–2025 HighscoreCGames. Todos los derechos reservados.</p>
@@ -86,5 +74,15 @@
     </div>
   </footer>
 
+  <!-- Modal reutilizable -->
+  <div id="modalKotlin" class="modal oculto">
+    <div class="modal-contenido-kotlin">
+      <span class="modal-cerrar" onclick="cerrarModalKotlin()" style="color: red;">&times;</span>
+      <iframe id="iframeKotlin" src="" frameborder="0" class="iframe-kotlin"></iframe>
+    </div>
+  </div>
+
+  <!-- Script separado o embebido -->
+  <script src="js/modalKotlin.js"></script>
 </body>
 </html>
