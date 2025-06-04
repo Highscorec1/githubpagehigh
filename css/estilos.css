@@ -87,7 +87,7 @@ html {
   height: 60px;
 }
 .elementos--der {
-  justify-content: right;
+  justify-content: flex-end;
 }
 .nav__lista {
   list-style: none;
