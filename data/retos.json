@@ -2,31 +2,62 @@
   {
     "titulo": "Reto 0: SINTAXIS",
     "descripcion": "Variables, Tipos de Datos y Hola Mundo",
-    "url": "https://pl.kotl.in/QPR_NZN3T"
+    "url": "https://pl.kotl.in/a8hWP9S7C"
   },
   {
     "titulo": "Reto 1: OPERADORES Y ESTRUCTURAS DE CONTROL",
     "descripcion": "Crea Ejemplos de Operadores y Estructuras de Control.",
-    "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
+    "url": "https://pl.kotl.in/-PS7SC0fC"
   },
   {
     "titulo": "Reto 2: FUNCIONES Y ALCANCE",
     "descripcion": "Crea Ejemplos de funciones básicas",
-    "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
+    "url": "https://pl.kotl.in/5M-yCqGsH"
   },
   {
-    "titulo": "Reto 0: SINTAXIS",
-    "descripcion": "Variables, Tipos de Datos y Hola Mundo",
-    "url": "https://pl.kotl.in/QPR_NZN3T"
+    "titulo": "Reto 2: EJERCICIO EXTRA",
+    "descripcion": "Ejercicio Extra de Funciones FIZZ BUZZ",
+    "url": "https://pl.kotl.in/HZTAjwPkY"
   },
   {
-    "titulo": "Reto 1: OPERADORES Y ESTRUCTURAS DE CONTROL",
-    "descripcion": "Crea Ejemplos de Operadores y Estructuras de Control.",
-    "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
+    "titulo": "Reto 3: ESTRUCTURAS DE DATOS",
+    "descripcion": "Creación de todos los tipos de estructuras soportadas por Kotlin",
+    "url": "https://pl.kotl.in/2We8Mfcgk"
   },
   {
-    "titulo": "Reto 2: FUNCIONES Y ALCANCE",
-    "descripcion": "Crea Ejemplos de funciones básicas",
-    "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
-  }
+    "titulo": "Reto 3: EJERCICIO EXTRA",
+    "descripcion": "Crea Agenda de Contactos por Terminal",
+    "url": "https://pl.kotl.in/ewRV8lkbA"
+  },
+
+    {
+        "titulo": "Reto 4: Cadena de Caracteres",
+        "descripcion": "Crea ejemplos de POO en Kotlin",
+        "url": "https://pl.kotl.in/MylWOdPyv"
+    },
+    {
+        "titulo": "Reto 6: Programación Funcional",
+        "descripcion": "Crea ejemplos de Programación Funcional en Kotlin",
+        "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
+    },
+    {
+        "titulo": "Reto 7: Excepciones y Manejo de Errores",
+        "descripcion": "Crea ejemplos de manejo de excepciones",
+        "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
+    },
+    {
+        "titulo": "Reto 8: Colecciones y Streams",
+        "descripcion": "Crea ejemplos de colecciones y streams en Kotlin",
+        "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
+    },
+    {
+        "titulo": "Reto 9: Programación Asíncrona",
+        "descripcion": "Crea ejemplos de programación asíncrona en Kotlin",
+        "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
+    },
+    {
+        "titulo": "Reto 10: Interoperabilidad con Java",
+        "descripcion": "Crea ejemplos de interoperabilidad entre Kotlin y Java",
+        "url": "https://play.kotlinlang.org/#eyJ2ZXJz..."
+    }
 ]
